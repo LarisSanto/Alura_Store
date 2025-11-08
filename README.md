@@ -8,13 +8,63 @@
 # 🏪 Projeto Alura Store - Decisão de negócio com Dados. 
 Neste projeto irei ajudar o Senhor João a decidir qual loja da sua rede Alura Store vender para iniciar um novo empreendimento. Para isso, irei analisará dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store. O objetivo é identificar a loja com menor eficiência e apresentar uma recomendação final baseada nos dados.
 
-O que realizei:
-- Carregar e manipular dados CSV com a biblioteca Pandas;
-- Criar visualizações de dados com biblioteca Matplotlib;
-- Analisar métricas como faturamento, avaliações e desempenho de vendas;
-- Apresentar uma recomendação.
+**O que foi realizado**
+A análise foi conduzida em um único notebook, focando nas etapas de manipulação, visualização e extração de insights.
 
-**Descrição**
+**Etapas Realizadas**
+
+- **Carregamento e Manipulação de Dados:**
+- Importação e criação de um DataFrame com a biblioteca Pandas.
+
+- Análise inicial da estrutura (head(), info()) e tipos de dados.
+
+- Tratamento de valores ausentes (coordenadas geográficas).
+
+- Criação de novas colunas para enriquecer a análise (ex: 'Avaliação Média').
+
+- **Análise Exploratória e Visualização:**
+
+- Cálculo de métricas-chave: Faturamento Total, Média de Avaliações e Frequência de Vendas.
+
+- Agrupamento (groupby) por loja para comparação de desempenho.
+
+- Criação de visualizações (Matplotlib/Folium) para comparar o desempenho das lojas em termos de faturamento e avaliação.
+
+- **Recomendação Final:**
+
+- Consolidação das métricas (faturamento, avaliação, frequência) para identificar a loja com o desempenho mais baixo.
+
+- Apresentação de uma recomendação clara e baseada em dados.
+
+<br>
+
+**Estrutura do Repositório**
+📁 Projeto-Alura-Store
+
+- 📄 loja_1.csv
+- 📄 loja_2.csv
+- 📄 loja_3.csv
+- 📄 loja_4.csv
+- 📓 Alura_Store_Larissa.ipynb     # Notebook de análise completo
+- 📄 README.md                     # Descrição do projeto
+
+<br>
+
+**Ferramentas Utilizadas**
+
+- Python 
+
+- Pandas (Manipulação e Análise de Dados)
+
+- Matplotlib (Visualização de Dados)
+
+- Folium (Visualização Geográfica e Mapa de Calor)
+
+- Jupyter Notebook / Google Colab
+
+<br>
+
+**Relatório Final**
 
 O objetivo desta análise foi identificar qual loja o Senhor João deve vender, com base em indicadores financeiros, de desempenho de vendas e de satisfação dos clientes. Foram analisados:  
 - O faturamento total de cada loja;  
@@ -25,6 +75,7 @@ O objetivo desta análise foi identificar qual loja o Senhor João deve vender, 
 
 A partir dessas informações, foi possível comparar o desempenho geral de cada unidade e recomendar aquela que apresenta os piores resultados para uma eventual venda.
 
+<br>
 
 **Desenvolvimento das Análises**
 
@@ -35,6 +86,7 @@ Faturamento Total:
 
 A Loja 1 apresentou o melhor desempenho financeiro, enquanto a Loja 4 teve o menor faturamento total, indicando menor volume de vendas ou ticket médio mais baixo.
 
+<br>
 
 **Categorias de Produtos Mais e Menos Vendidas**
 
@@ -53,6 +105,7 @@ As Lojas 1 e 3 se destacam em várias categorias com bom desempenho em eletrodom
 Já a Loja 2 tem resultados medianos, mas se destaca em instrumentos musicais e livros.
 A Loja 4 aparece com menor desempenho em múltiplas categorias, especialmente em eletrodomésticos e instrumentos musicais.
 
+<br>
 
 **Média das Avaliações dos Clientes**
 
@@ -61,6 +114,7 @@ A Loja 4 aparece com menor desempenho em múltiplas categorias, especialmente em
 
 A Loja 3 se sobressai na satisfação dos clientes, com avaliações médias mais altas. Apesar do bom faturamento, a Loja 1 apresenta a pior média de avaliação.
 
+<br>
 
 **Produtos Mais e Menos Vendidos**
 - Mais vendidos: Lojas 1, 2 e 3 — 2.359 unidades  
@@ -68,6 +122,7 @@ A Loja 3 se sobressai na satisfação dos clientes, com avaliações médias mai
 
 Mesmo com diferença pequena, a Loja 4 novamente aparece na última posição, reforçando o padrão de desempenho mais baixo em volume de vendas.
 
+<br>
 
 **Frete Médio por Loja**
 - Maior frete: Loja 1 — R$ 34,60  
@@ -76,6 +131,7 @@ Mesmo com diferença pequena, a Loja 4 novamente aparece na última posição, r
 
 A Loja 1 apresenta o maior custo médio de frete. Já a Loja 4 tem o menor custo logístico.
 
+<br>
 
 **Síntese Comparativa**
 
@@ -87,6 +143,7 @@ A Loja 1 apresenta o maior custo médio de frete. Já a Loja 4 tem o menor custo
 | Produtos vendidos | Lojas 1, 2, 3 | Loja 4 |
 | Frete médio | Loja 4 | Loja 1 |
 
+<br>
 
 **Conclusão e Recomendação**
 
@@ -99,20 +156,13 @@ Com base em todos os dados analisados, a Loja 4 apresenta o pior desempenho gera
 
  Recomenda-se que o Senhor João venda a Loja 4, por ser a unidade menos rentável e com menor potencial de crescimento, permitindo concentrar esforços e recursos nas lojas com melhor desempenho (especialmente a Loja 3, que combina boas vendas, boa avaliação e mix de produtos sólido).
 
+ <br>
+
 **Confira o notebooks completos:**
-- Arquivo: 
+- Arquivo: https://github.com/LarisSanto/Alura_Store/blob/main/Alura_Store_Larissa.ipynb
 - Link: https://colab.research.google.com/drive/1XZ2RcDxkic45hIJcpC8D4FjDX47fYfXY?usp=sharing
 
-**Ferramentas Utilizadas**
-
-- Python (Pandas, Matplotlib, Folium)
-
-- Google Colab
-
-- Bibliotecas:
-  - pandas → tratamento de dados
-  - matplotlib → visualização de gráficos
-  - folium → criação de mapas interativos
+<br>
 
 ## 👩🏽 Sobre Mim
 
@@ -122,7 +172,7 @@ Este projeto faz parte do meu processo de aprendizado e desenvolvimento pessoal 
 
 Estou super aberta para sugestôes e dicas!
 
-
+<br>
 
 ### 📫 Contato
 
