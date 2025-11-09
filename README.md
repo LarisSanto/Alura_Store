@@ -89,6 +89,7 @@ A Loja 1 apresentou o melhor desempenho financeiro, enquanto a Loja 4 teve o men
 <br>
 
 **Categorias de Produtos Mais e Menos Vendidas**
+<br>
 
 | Categoria             | Loja que Mais Vendeu | Loja que Menos Vendeu |
 | --------------------- | -------------------- | --------------------- |
@@ -134,6 +135,7 @@ A Loja 1 apresenta o maior custo médio de frete. Já a Loja 4 tem o menor custo
 <br>
 
 **Síntese Comparativa**
+<br>
 
 | Indicador | Melhor Desempenho | Pior Desempenho |
 |------------|-------------------|-----------------|
