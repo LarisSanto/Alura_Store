@@ -13,7 +13,7 @@ A análise foi conduzida em um único notebook, focando nas etapas de manipulaç
 
 **Etapas Realizadas**
 
-- **Carregamento e Manipulação de Dados:**
+**Carregamento e Manipulação de Dados:**
 - Importação e criação de um DataFrame com a biblioteca Pandas.
 
 - Análise inicial da estrutura (head(), info()) e tipos de dados.
@@ -22,7 +22,7 @@ A análise foi conduzida em um único notebook, focando nas etapas de manipulaç
 
 - Criação de novas colunas para enriquecer a análise (ex: 'Avaliação Média').
 
-- **Análise Exploratória e Visualização:**
+**Análise Exploratória e Visualização:**
 
 - Cálculo de métricas-chave: Faturamento Total, Média de Avaliações e Frequência de Vendas.
 
@@ -30,7 +30,7 @@ A análise foi conduzida em um único notebook, focando nas etapas de manipulaç
 
 - Criação de visualizações (Matplotlib/Folium) para comparar o desempenho das lojas em termos de faturamento e avaliação.
 
-- **Recomendação Final:**
+**Recomendação Final:**
 
 - Consolidação das métricas (faturamento, avaliação, frequência) para identificar a loja com o desempenho mais baixo.
 
