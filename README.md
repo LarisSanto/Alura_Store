@@ -11,6 +11,7 @@ Neste projeto irei ajudar o Senhor João a decidir qual loja da sua rede Alura S
 **O que foi realizado**
 A análise foi conduzida em um único notebook, focando nas etapas de manipulação, visualização e extração de insights.
 
+
 **Etapas Realizadas**
 
 **Carregamento e Manipulação de Dados:**
@@ -187,6 +188,8 @@ https://unique-onion-409.notion.site/Ol-meu-nome-Larissa-dos-Santos-1ffae8705fee
 
 
 ---
+
+
 
 <p align="center">Feito com 🖤 por Larissa dos Santos Silva</p>
 
