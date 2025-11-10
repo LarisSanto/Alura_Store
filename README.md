@@ -8,7 +8,8 @@
 # 🏪 Projeto Alura Store - Decisão de negócio com Dados. 
 Neste projeto irei ajudar o Senhor João a decidir qual loja da sua rede Alura Store vender para iniciar um novo empreendimento. Para isso, irei analisará dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store. O objetivo é identificar a loja com menor eficiência e apresentar uma recomendação final baseada nos dados.
 
-**O que foi realizado**
+O que foi realizado
+
 A análise foi conduzida em um único notebook, focando nas etapas de manipulação, visualização e extração de insights.
 
 
