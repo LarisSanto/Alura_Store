@@ -174,7 +174,7 @@ Sou **Larissa dos Santos Silva**, estudante do Programa ONE (Oracle + Alura).
 Aqui compartilho os principais projetos que desenvolvi durante minha formação na Área de Dados.
 Este projeto faz parte do meu processo de aprendizado e desenvolvimento pessoal e profissional. 
 
-Estou super aberta para sugestôes e dicas!
+Estou super aberta para sugestões e dicas!
 
 <br>
 
