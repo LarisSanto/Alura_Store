@@ -168,7 +168,7 @@ Com base em todos os dados analisados, a Loja 4 apresenta o pior desempenho gera
 
 <br>
 
-## 👩🏽 Sobre Mim
+### 👩🏽 Sobre Mim
 
 Sou **Larissa dos Santos Silva**, estudante do Programa ONE (Oracle + Alura).
 Aqui compartilho os principais projetos que desenvolvi durante minha formação na Área de Dados.
